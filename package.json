@@ -2,7 +2,6 @@
   "name": "hello-next",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "dev": "next",
     "build": "next build && next export -o _static",
@@ -12,8 +11,21 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "next": "^9.1.7",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "babel-plugin-styled-components": "^1.11.1",
+    "graphql": "^15.4.0",
+    "graphql-request": "^3.3.0",
+    "html-react-parser": "^0.14.0",
+    "lodash.castarray": "^4.4.0",
+    "lodash.merge": "^4.6.2",
+    "next": "^10.0.0",
+    "polished": "^4.0.3",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.2.0",
+    "styled-system": "^5.1.5"
+  },
+  "devDependencies": {
+    "prettier": "^2.1.2"
   }
 }
